@@ -46,7 +46,7 @@ export const PAGE_CONTENT_PROJECTS = {
   PROJECTS: [
     {
       id: "shoppe-clone",
-      slug: "casio-anhkhue-com",
+      slug: "shoppe-clone",
       detailedName: "Shoppe Clone",
       title: "Shoppe Clone",
       referenceSiteUrl: "https://shopee-clone-reactjs.vercel.app/",
