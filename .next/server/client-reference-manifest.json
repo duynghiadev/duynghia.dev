@@ -56,14 +56,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/next-theme-provider/index.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/next-theme-provider/index.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -104,6 +96,14 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/(site)/@footer/default.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/(site)/@footer/default.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
@@ -115,14 +115,6 @@
     "(app-client)/./src/components/pursuer.tsx": {
       "*": {
         "id": "(sc_client)/./src/components/pursuer.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/(site)/@footer/default.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/(site)/@footer/default.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -144,9 +136,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/(site)/projects/page.tsx": {
+    "(app-client)/./src/components/next-theme-provider/index.tsx": {
       "*": {
-        "id": "(sc_client)/./src/app/(site)/projects/page.tsx",
+        "id": "(sc_client)/./src/components/next-theme-provider/index.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -155,14 +147,6 @@
     "(app-client)/./src/app/(site)/about-me/page.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/(site)/about-me/page.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/(site)/projects/[slug]/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/(site)/projects/[slug]/page.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -331,19 +315,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\components\\next-theme-provider\\index.tsx": {
-      "id": "(app-client)/./src/components/next-theme-provider/index.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\DELL\\Desktop\\duynghia.dev\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/(site)/projects/[slug]/page:static/chunks/app/(site)/projects/[slug]/page.js"
+        "app/(site)/about-me/page:static/chunks/app/(site)/about-me/page.js"
       ],
       "async": false
     },
@@ -351,7 +327,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/(site)/projects/[slug]/page:static/chunks/app/(site)/projects/[slug]/page.js"
+        "app/(site)/about-me/page:static/chunks/app/(site)/about-me/page.js"
       ],
       "async": false
     },
@@ -359,7 +335,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/(site)/projects/[slug]/page:static/chunks/app/(site)/projects/[slug]/page.js"
+        "app/(site)/about-me/page:static/chunks/app/(site)/about-me/page.js"
       ],
       "async": false
     },
@@ -367,7 +343,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/(site)/projects/[slug]/page:static/chunks/app/(site)/projects/[slug]/page.js"
+        "app/(site)/about-me/page:static/chunks/app/(site)/about-me/page.js"
       ],
       "async": false
     },
@@ -383,7 +359,7 @@
       "id": "(app-client)/./src/components/motions/smoother.tsx",
       "name": "*",
       "chunks": [
-        "app/(site)/projects/[slug]/page:static/chunks/app/(site)/projects/[slug]/page.js"
+        "app/(site)/about-me/page:static/chunks/app/(site)/about-me/page.js"
       ],
       "async": false
     },
@@ -391,7 +367,15 @@
       "id": "(app-client)/./src/hooks/use-device.ts",
       "name": "*",
       "chunks": [
-        "app/(site)/projects/[slug]/page:static/chunks/app/(site)/projects/[slug]/page.js"
+        "app/(site)/about-me/page:static/chunks/app/(site)/about-me/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\@footer\\default.tsx": {
+      "id": "(app-client)/./src/app/(site)/@footer/default.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(site)/@footer/default:static/chunks/app/(site)/@footer/default.js"
       ],
       "async": false
     },
@@ -419,19 +403,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\@footer\\default.tsx": {
-      "id": "(app-client)/./src/app/(site)/@footer/default.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(site)/@footer/default:static/chunks/app/(site)/@footer/default.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\DELL\\Desktop\\duynghia.dev\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/(site)/projects/page:static/chunks/app/(site)/projects/page.js"
+        "app/(site)/@header/default:static/chunks/app/(site)/@header/default.js"
       ],
       "async": false
     },
@@ -439,7 +415,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/(site)/projects/page:static/chunks/app/(site)/projects/page.js"
+        "app/(site)/@header/default:static/chunks/app/(site)/@header/default.js"
       ],
       "async": false
     },
@@ -451,11 +427,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\projects\\page.tsx": {
-      "id": "(app-client)/./src/app/(site)/projects/page.tsx",
+    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\components\\next-theme-provider\\index.tsx": {
+      "id": "(app-client)/./src/components/next-theme-provider/index.tsx",
       "name": "*",
       "chunks": [
-        "app/(site)/projects/page:static/chunks/app/(site)/projects/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -466,17 +442,25 @@
         "app/(site)/about-me/page:static/chunks/app/(site)/about-me/page.js"
       ],
       "async": false
-    },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\projects\\[slug]\\page.tsx": {
-      "id": "(app-client)/./src/app/(site)/projects/[slug]/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(site)/projects/[slug]/page:static/chunks/app/(site)/projects/[slug]/page.js"
-      ],
-      "async": false
     }
   },
   "entryCSSFiles": {
+    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\@footer\\default": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\layout": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\@header\\default": {
+      "modules": [],
+      "files": []
+    },
     "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\layout": {
       "modules": [
         "C:\\Users\\DELL\\Desktop\\duynghia.dev\\node_modules\\locomotive-scroll\\dist\\locomotive-scroll.css",
@@ -487,31 +471,7 @@
         "static/css/app/layout.css"
       ]
     },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\page": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\layout": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\@footer\\default": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\@header\\default": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\projects\\page": {
-      "modules": [],
-      "files": []
-    },
     "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\about-me\\page": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\DELL\\Desktop\\duynghia.dev\\src\\app\\(site)\\projects\\[slug]\\page": {
       "modules": [],
       "files": []
     }

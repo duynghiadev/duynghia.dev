@@ -56,9 +56,9 @@ const RotatePersonal: FC<RotatePersonalProps> = ({ enableLogo, ...props }) => {
         a 37,37 0 1,1 -74,0"
             />
           </defs>
-          <text fontSize="11.5" className="text-gray-950 dark:fill-gray-50">
+          <text fontSize="12.4" className="text-gray-950 dark:fill-gray-50">
             <textPath xlinkHref="#circle">
-              - Le Nguyen Duy Nghia - Front-end Developer
+              - Duy Nghia Dev - Front-end Developer
             </textPath>
           </text>
         </svg>
