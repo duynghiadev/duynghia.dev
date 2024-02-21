@@ -14,13 +14,13 @@ import {
   useCallback,
   useLayoutEffect,
   useRef,
-  useState
+  useState,
 } from "react";
 import { useDebounce } from "react-use";
 import InitPageSplash from "../loadings/init-page-splash";
 import { DEFINE_LOCOMOTIVE_LERP } from "./constant";
 import SmootherScrollSection, {
-  SmootherScrollSectionProps
+  SmootherScrollSectionProps,
 } from "./smoother-scroll-section";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -35,11 +35,7 @@ export interface SmootherRootProps extends FC<SmootherProps> {
   ScrollSection: ForwardRefExoticComponent<SmootherScrollSectionProps>;
 }
 
-const Smoother: SmootherRootProps = ({
-                                       asChild,
-                                       options,
-                                       children
-                                     }) => {
+const Smoother: SmootherRootProps = ({ asChild, options, children }) => {
   const pathname = usePathname();
   const { device } = useDevice();
 
@@ -59,14 +55,14 @@ const Smoother: SmootherRootProps = ({
           smooth: true,
           ...options,
           smartphone: {
-            smooth: true
+            smooth: true,
           },
           tablet: {
             breakpoint: 768.5,
-            smooth: true
+            smooth: true,
           },
           resetNativeScroll: true,
-          el: $el
+          el: $el,
         });
       }
 
@@ -115,11 +111,11 @@ const Smoother: SmootherRootProps = ({
               top: 0,
               left: 0,
               width: window.innerWidth,
-              height: window.innerHeight
+              height: window.innerHeight,
             };
           },
 
-          pinType: scrollPinType
+          pinType: scrollPinType,
         });
 
         const sections = document.querySelectorAll(".smoother-scroll-section");
@@ -140,7 +136,7 @@ const Smoother: SmootherRootProps = ({
               pin: inner,
               pinSpacing: true,
               anticipatePin: 1,
-              pinType: "transform"
+              pinType: "transform",
             });
 
             gsap.to(scrollInSectionEl, {
@@ -155,8 +151,8 @@ const Smoother: SmootherRootProps = ({
                 scroller: containerEl,
                 start: "center center",
                 end: () => `+=${section.scrollWidth + 800}`,
-                scrub: true
-              }
+                scrub: true,
+              },
             });
           }
 
