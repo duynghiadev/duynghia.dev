@@ -4,7 +4,7 @@ import { HTMLAttributes } from "react";
 
 const textDescriptionVariants = cva("text-xl font-normal leading-normal", {
   variants: {},
-  defaultVariants: {}
+  defaultVariants: {},
 });
 
 export interface TextDescriptionProps extends HTMLAttributes<HTMLElement> {
@@ -12,11 +12,11 @@ export interface TextDescriptionProps extends HTMLAttributes<HTMLElement> {
 }
 
 const TextDescription = ({
-                           children,
-                           className,
-                           asChild,
-                           ...props
-                         }: TextDescriptionProps) => {
+  children,
+  className,
+  asChild,
+  ...props
+}: TextDescriptionProps) => {
   const Comp = asChild ? Slot : "p";
   return (
     <Comp {...props} className={textDescriptionVariants({ className })}>
