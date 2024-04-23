@@ -11,16 +11,16 @@ const buttonVariants = cva(
   {
     variants: {
       rounded: {
-        base: ["rounded-3xl"]
+        base: ["rounded-3xl"],
       },
       color: {
-        base: ["bg-gray-950 text-gray-50 dark:bg-white dark:text-gray-950"]
-      }
+        base: ["bg-gray-950 text-gray-50 dark:bg-white dark:text-gray-950"],
+      },
     },
     defaultVariants: {
       rounded: "base",
-      color: "base"
-    }
+      color: "base",
+    },
   }
 );
 
@@ -31,12 +31,12 @@ export interface ButtonProps
 }
 
 const Button: FC<ButtonProps> = ({
-                                   asChild,
-                                   className,
-                                   rounded,
-                                   color,
-                                   ...props
-                                 }) => {
+  asChild,
+  className,
+  rounded,
+  color,
+  ...props
+}) => {
   const Comp = asChild ? Slot : "button";
   return (
     <Comp
