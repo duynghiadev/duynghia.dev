@@ -4,18 +4,17 @@ import { FC, HTMLAttributes } from "react";
 export const containerVariants = cva("w-full px-6", {
   variants: {
     variant: {
-      base: "max-w-[1140px] mx-auto"
-    }
+      base: "max-w-[1140px] mx-auto",
+    },
   },
   defaultVariants: {
-    variant: "base"
-  }
+    variant: "base",
+  },
 });
 
 export interface ContainerProps
   extends HTMLAttributes<HTMLDivElement>,
-    VariantProps<typeof containerVariants> {
-}
+    VariantProps<typeof containerVariants> {}
 
 const Container: FC<ContainerProps> = ({ className, ...props }) => {
   return (
