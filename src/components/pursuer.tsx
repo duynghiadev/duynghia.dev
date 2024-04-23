@@ -6,11 +6,9 @@ import { ArrowRight } from "lucide-react";
 import { FC, MouseEvent } from "react";
 import { useEvent } from "react-use";
 
-export interface PursuerProps {
-}
+export interface PursuerProps {}
 
 const Pursuer: FC<PursuerProps> = () => {
-
   useEvent(
     "mousemove",
     throttle((event: MouseEvent<HTMLElement>) => {
