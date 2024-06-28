@@ -2,6 +2,8 @@
 
 Welcome to my portfolio on GitHub! This is where I share the projects and work I've done, along with information about myself and my skills.
 
+Link deploy: https://portfolio-duynghiadev.netlify.app/
+
 ## About Me
 
 I am Le Nguyen Duy Nghia, a software engineer with a passion for the field of information technology, specifically software. I believe that learning and sharing knowledge is the key to development and success.
