@@ -35,3 +35,4 @@ next-env.d.ts
 
 # chores
 yarn.lock
+.next
