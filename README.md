@@ -2,7 +2,7 @@
 
 Welcome to my portfolio on GitHub! This is where I share the projects and work I've done, along with information about myself and my skills.
 
-Link deploy: https://portfolio-duynghiadev.netlify.app/
+Link deploy: [https://portfolio-duynghiadev.netlify.app/](https://portfolio-duynghiadev.netlify.app/)
 
 ## About Me
 
@@ -13,9 +13,7 @@ I am Le Nguyen Duy Nghia, a software engineer with a passion for the field of in
 In this project, I introduce information and social networks that I am currently using.
 
 - **Home Page**: Brief description of the project and the technologies used.
-
 - **About**: Brief description of contact information and pet projects.
-
 - **Contact**: Description of contact information.
 
 ## Skills
@@ -31,7 +29,7 @@ Below are some skills that I have:
 
 If you want to get in touch or learn more about me, you can connect with me through:
 
-- Email: [duynghia22302@gmail.com](mailto:duynghia22302@gmail.com)
+- Email: [duynghiadev@gmail.com](mailto:duynghiadev@gmail.com)
 - LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/duynghiale/)
 - Twitter: [My Twitter Profile](https://twitter.com/nghia_dian)
 
